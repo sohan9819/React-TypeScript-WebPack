@@ -1,6 +1,6 @@
 import './style.css'
 import ReactIcon from './reactjs-icon.svg'
-import { ClickCounter } from './ClickCounter'
+import { ClickCounter } from './components/ClickCounter/ClickCounter'
 
 export const App = () => {
   return (

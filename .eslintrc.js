@@ -18,6 +18,21 @@ module.exports = {
     'plugin:import/typescript',
     'plugin:jsx-a11y/recommended',
     'prettier',
+    /* 
+    Eslint Jest Plugin 
+    yarn add -D eslint-plugin-jest 
+     */
+    // ##################
+    'plugin:jest/recommended',
+    'plugin:jest/style',
+    // ##################
+    /*
+    Eslint React-testing-library Plugin
+     */
+    //  #################
+    'plugin:testing-library/react',
+    //  #################
+
     // 'plugin:eslint-comments/recommended',
     // 'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
